@@ -14,9 +14,9 @@ const UserSchema = new Schema(
             required: true,
             match: [/.+@.+\..+/],
         },
-        quotes: [{
+        thoughts: [{
             type: Schema.Types.ObjectId,
-            ref: "Quote",
+            ref: "Thought",
         }],
         friends: [{
             type: Schema.Types.ObjectId,
