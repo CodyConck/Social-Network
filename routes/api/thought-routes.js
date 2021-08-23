@@ -23,7 +23,7 @@ router
     .post(addThought)
 
 router
-    .route('/:thoughtId/users/:userId')
+    .route('userId/:id')
     .delete(removeThought)
     
 router
